@@ -1,0 +1,1 @@
+﻿couplé nginx avec apache2 est php-fpm
