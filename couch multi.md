@@ -1,7 +1,9 @@
 # CouchPotato Multi-Utilisateurs
 
 N'ayant pas trouvé de tuto sur internet pour installer & configurer couchpotato en multi utilisateurs, voici une procédure expliquant sa mise en place.
-Prenons par exemple 2 utilisateurs, dans ce cas: xavier & zarev. Evidemment, prenez soin de les remplacer par vos utilisateurs!
+À titre indicatif, nous choisissons ces deux utilisateurs: xavier & zarev. 
+
+[center]/!\ Prenez soin de les remplacer par vos utilisateurs tout au long du tutoriel! /!\[/center]
 
 ## Installation des prérequis
 
@@ -15,7 +17,7 @@ git clone https://github.com/CouchPotato/CouchPotatoServer.git /opt/couchpotato
 cd /opt/couchpotato
 ```
 
-## cree le service
+## On crée le service
 ```shell
 nano /etc/init.d/couchpotato-xavier
 ```
@@ -131,9 +133,9 @@ esac
 exit 0
 
 ```
-tu as 4 xavier a modifié
+Tu as 4 xavier a modifier
 
-## demarrage du service + droit
+## Démarrage du service + attribution des droits
 ```shell
 update-rc.d couchpotato-xavier defaults
 /etc/init.d/couchpotato-xavier start
@@ -141,7 +143,7 @@ update-rc.d couchpotato-xavier defaults
 chmod -Rf 755  /opt/couchpotato/data/
 ```
 
-## config de user couch
+## Configuration de user couch
 ```shell
 nano /opt/couchpotato/data/xavier/settings.conf
 ```
@@ -162,7 +164,7 @@ create_subdir = 0
 use_for = both
 ```
 
-## config de nginx
+## Configuration de nginx
 ```shell
 location ^~ /couchpotato {
                 proxy_set_header X-Real-IP $remote_addr;
@@ -175,12 +177,12 @@ location ^~ /couchpotato {
                 }
         }
 ```
-## on demmare le tout
+## On démmare le tout
 ```shell
 /etc/init.d/couchpotato-xavier start
 service nginx restart
 ```
-# partie 2 ajout d'un utilisateur.
+# Partie 2 ajout d'un utilisateur.
 
 
 ## cree le service
@@ -188,7 +190,7 @@ service nginx restart
 nano /etc/init.d/couchpotato-zarev
 ```
 
-## on copie cela
+## On copie cela
 ```shell
 #!/bin/sh
 #
@@ -345,7 +347,7 @@ location ^~ /couchpotato {
                 }
         }
 ```
-## on demmare le tout
+## On demmare le tout
 ```shell
 /etc/init.d/couchpotato-zarev start
 service nginx restart
