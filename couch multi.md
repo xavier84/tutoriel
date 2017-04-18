@@ -133,7 +133,7 @@ esac
 exit 0
 
 ```
-Tu as 4 xavier a modifier
+Tu as 4 xavier à modifier
 
 ## Démarrage du service + attribution des droits
 ```shell
