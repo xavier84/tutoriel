@@ -1,4 +1,4 @@
-# CouchPotato Multi-Utilisateur
+# CouchPotato multi-Utilisateur
 
 N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato en multi-utilisateur, voici une procédure expliquant sa mise en place.
 À titre indicatif, nous choisissons ces deux utilisateurs: xavier & zarev. 
