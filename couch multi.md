@@ -3,7 +3,7 @@
 N'ayant pas trouvé de tuto sur internet pour installer & configurer couchpotato en multi utilisateurs, voici une procédure expliquant sa mise en place.
 À titre indicatif, nous choisissons ces deux utilisateurs: xavier & zarev. 
 
-[center]/!\ Prenez soin de les remplacer par vos utilisateurs tout au long du tutoriel! /!\[/center]
+> /!\ Prenez soin de les remplacer par vos utilisateurs tout au long du tutoriel! /!\
 
 ## Installation des prérequis
 
