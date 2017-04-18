@@ -20,7 +20,7 @@ cd /opt/couchpotato
 nano /etc/init.d/couchpotato-xavier
 ```
 
-## on copie cela
+## On copie cela
 ```shell
 #!/bin/sh
 #
