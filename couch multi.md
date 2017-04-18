@@ -22,7 +22,7 @@ cd /opt/couchpotato
 nano /etc/init.d/couchpotato-xavier
 ```
 
-## On copie cela
+## On copie dedans
 ```shell
 #!/bin/sh
 #
@@ -185,12 +185,12 @@ service nginx restart
 # Partie 2 ajout d'un utilisateur.
 
 
-## cree le service
+## On crée le service
 ```shell
 nano /etc/init.d/couchpotato-zarev
 ```
 
-## On copie cela
+## On copie dedans
 ```shell
 #!/bin/sh
 #
@@ -303,7 +303,7 @@ exit 0
 ```
 tu as 4 zarev a modifié
 
-## demarrage du service + droit
+## Démarrage du service + attribution des droits
 ```shell
 update-rc.d couchpotato-zarev defaults
 /etc/init.d/couchpotato-zarev start
@@ -330,7 +330,7 @@ directory = /home/zarev/watch/
 create_subdir = 0
 use_for = both
 ```
-## config de nginx
+## Configuration de nginx
 ```shell
 location ^~ /couchpotato {
                 proxy_set_header X-Real-IP $remote_addr;
@@ -347,7 +347,7 @@ location ^~ /couchpotato {
                 }
         }
 ```
-## On demmare le tout
+## On démmare le tout
 ```shell
 /etc/init.d/couchpotato-zarev start
 service nginx restart
