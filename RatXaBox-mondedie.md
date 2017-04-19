@@ -15,33 +15,40 @@ Voici un "fork" (une copie) du célèbre script [Bonobox](https://mondedie.fr/d/
 * Thème QuickBox-Dark par défaut
 * Un sous-domain *****.ratxabox.ovh (sur demande)
 
-## Installation des prérequis 
+**Détail du tutoriel:**
+
+1. ## Préambule
+2. ## Installation
+* git-core
+* cloner et lancer le script
+3. ## Les options
+## 1. Préambule
 
 * [Bien lire le tuto de Ex_Rat](https://mondedie.fr/d/5399 "Titre") (juste le lire, ne pas exécuter script de ex_rat)
 * [Dépot RatXaBox](https://github.com/xavier84/RatXaBox "Titre")
 
-https://mondedie.fr/d/5399-Script-Installation-automatique-ruTorrent-nginx
+## 2.  Installation
 
-[b]2) Installation :[/b]
-
-Mise a jours + installation de Git
-[code]apt-get update && apt-get upgrade -y
+*Mise a jours + installation de Git:*
+```{r}
+apt-get update && apt-get upgrade -y
 apt-get install git-core -y
-[/code]
-on clone est lance le script
-[code]cd /tmp
+```
+
+*On clone et on lance le script:*
+```{r}
+cd /tmp
 git clone https://github.com/xavier84/RatXaBox ratxabox
 cd ratxabox
-chmod a+x bonobox.sh && ./bonobox.sh[/code]
+chmod a+x bonobox.sh && ./bonobox.sh
+```
+Il vous suffira de suivre les indications affichées
 
-il vous suffira de suivre les indications affichées.
+## 3.  Les options
 
-[b]3) Les Options :[/b]
+Pour installer les options: après le redémarrage du serveur, relancer le script et choisir le numéro **10**
 
-Pour installé les options:
- après le redémarrage du serveur relancé le script et prendre le choix numéro : 10
-
-[b]4) Les liens :[/b]
+Les liens
 
 [list=*]
 [*]TARDIStart :
@@ -76,18 +83,9 @@ Administraion des liens :
 [*]TARDIStart   IPserveur/tardistart/admin[/*]
 [/list]
 
+PS: si vous rencontrez un bug ou tout autre problème, n'hésitez pas à me contacter !
 
+[La discussion se passe ici](https://mondedie.fr/d/8717-Discussion-RatXaBox-ruTorrent-avec-rTorrent-Version-Workflow "Titre")
 
-PS: si vous avez des bugs ou autres problèmes n'hésitez pas à me contacter !
-
-
-
-La discussion se passe la https://mondedie.fr/d/8717-Discussion-RatXaBox-ruTorrent-avec-rTorrent-Version-Workflow
-
-
-
-
-
-
-cordialement
+Cordialement:
 Xavier
