@@ -9,14 +9,14 @@ N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato
                                                                                                                                                                                                                   
 Détail du tutoriel:
 
-1: installation des prérequis
------------------------------
+1. Installation des prérequis
 
-2: création du service
-----------------------
 
-3: configuration de l'utilisateur
----------------------------------
+2. Création du service
+
+
+3. Configuration de l'utilisateur
+
 
 ## Installation des prérequis
 
