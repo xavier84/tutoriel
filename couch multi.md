@@ -7,10 +7,12 @@ N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato
 
 > Prenez soin de les remplacer par vos propres utilisateurs tout au long du tutoriel!  
                                                                                                                                                                                                                   
-Détail du tutoriel:
+## Détail du tutoriel:
 
 1. Installation des prérequis
 
+* python-cheetah
+* Couchpotato
 
 2. Création du service
 
@@ -18,7 +20,7 @@ Détail du tutoriel:
 3. Configuration de l'utilisateur
 
 
-## Installation des prérequis
+## 1. Installation des prérequis - python-cheetah
 
 ```shell
 apt-get install git-core python python-cheetah
