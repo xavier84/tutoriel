@@ -7,26 +7,27 @@ N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato
 
 > Prenez soin de les remplacer par vos propres utilisateurs tout au long du tutoriel!  
                                                                                                                                                                                                                   
-## Détail du tutoriel:
+# Détail du tutoriel:
 
-1. **Installation des prérequis**
+1. ## Installation des prérequis 
 
 * python-cheetah
 * Couchpotato
 
-2. **Création du service**
+2. ## Création du service
 
 * création du fichier de démarrage 
 
-3. **Démarrage du service et attribution des droits**
+3. ## Démarrage du service et attribution des droits
 
 
-
-4. **Configuration de l'utilisateur**
+4. ## Configuration de l'utilisateur
 
 * Création du fichier de configurration de l'utilisateur
 
-5. Configuration de nginx
+5. ## Configuration de nginx
+
+* Modification du fichier rutorrent.cof
 
 
 ## 1. Installation des prérequis
