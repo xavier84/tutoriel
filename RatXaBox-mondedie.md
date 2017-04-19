@@ -1,53 +1,26 @@
-[center][b]Auto installation de ruTorrent avec rTorrent. Version [color=red]"Seedbox-Manager Workflow"[/color][/b][/center]
-
-
+## Auto installation de ruTorrent avec rTorrent
+*Version "Seedbox-Manager Workflow"*
 
 Salut à tous,
 
+Voici un "fork" (une copie) du célèbre script Bonobox de notre ami @Ex_Rat, par plaisir j’y ai ajouté de nouvelles fonctionnalités:
+
+* TARDIStart  
+* SickRage multi-users
+* CouchPotato  multi-users
+* Plex  ou emby + icône dans ruTorrent
+* Filebot
+* Openvpn
+* eZ Server Monitor
+* Thème QuickBox-Dark par défaut
+* Un sous-domain *****.ratxabox.ovh (sur demande)
+
+## Installation des prérequis 
+
+* [Bien lire le tuto de Ex_Rat](https://mondedie.fr/d/5399 "Titre") (juste le lire, ne pas exécuter script de ex_rat)
+* [Dépot RatXaBox](https://github.com/xavier84/RatXaBox "Titre")
 
 
-Voici un "fork" (une copie) de notre ami [color=green]Ex_Rat[/color] du célèbre script Bonobox que par plaisir j’ai ajouté des fonctionnalités,
-
-
-[list=*]
-[*][color=#D2691E]TARDIStart[/color][/*]
-[/list]
-[list=*]
-[*][color=#D2691E]SickRage multi-users[/color][/*]
-[/list]
-[list=*]
-[*][color=#D2691E]CouchPotato  multi-users[/color][/*]
-[/list]
-[list=*]
-[*][color=#D2691E]Plex  ou emby + icône dans ruTorrent[/color] "dans options"[/*]
-[/list]
-[list=*]
-[*]*******[/*]
-[/list]
-[list=*]
-[*]*******[/*]
-[/list]
-[list=*]
-[*][color=#D2691E]Filebot[/color] "dans options"[/*]
-[/list]
-[list=*]
-[*][color=#D2691E]Openvpn[/color] "dans options"[/*]
-[/list]
-[list=*]
-[*][color=#D2691E]eZ Server Monitor[/color][/*]
-[/list]
-[list=*]
-[*][color=#D2691E]Thème QuickBox-Dark par défaut [/color][/*]
-[/list]
-[list=*]
-[*][color=#D2691E]Un sous-domain[/color] [color=#9932CC] *****.ratxabox.ovh [/color][color=#D2691E](sur demande)[/color][/*]
-[/list]
-
-[b]1) Préambule :[/b]
-
-Bien lire le tuto de Ex_Rat : [url]https://mondedie.fr/d/5399[/url] (juste le lire, ne pas exécuter script de ex_rat)
-
-Dépot RatXaBox : [url]https://github.com/xavier84/RatXaBox[/url]
 
 [b]2) Installation :[/b]
 
@@ -110,11 +83,6 @@ PS: si vous avez des bugs ou autres problèmes n'hésitez pas à me contacter !
 
 
 La discussion se passe la https://mondedie.fr/d/8717-Discussion-RatXaBox-ruTorrent-avec-rTorrent-Version-Workflow
-
-
-
-
-
 
 cordialement
 Xavier
