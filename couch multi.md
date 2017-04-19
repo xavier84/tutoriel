@@ -357,7 +357,7 @@ update-rc.d couchpotato-zarev defaults
 
 ## 5. Configuration de l'utilisateur Couchpotato:
 
-*Création du fichier de configurration de l'utilisateur:*
+*Édition du fichier de configuration de l'utilisateur:*
 ```shell
 nano /opt/couchpotato/data/zarev/settings.conf
 ```
