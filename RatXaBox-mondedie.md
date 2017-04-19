@@ -1,73 +1,120 @@
-# Script d'installation ruTorrent / Nginx
+[center][b]Auto installation de ruTorrent avec rTorrent. Version [color=red]"Seedbox-Manager Workflow"[/color][/b][/center]
 
-![logo](https://raw.github.com/exrat/rutorrent-bonobox/master/files/bonobox.png)
 
-* Multi-utilisateurs & Multilingue automatique en fonction de l'installation du serveur
-* Français, English, German, Pусский,  Español, Português
-* Nécessite Debian 7 ou 8 (32/64 bits) & un serveur fraîchement installé
 
-* Inclus VsFTPd (ftp & ftps sur le port 21), Fail2ban (avec conf nginx, ftp & ssh)
-* Seedbox-Manager, Auteurs: Magicalex, Hydrog3n et Backtoback
+Salut à tous,
 
-Tiré du tutoriel de Magicalex pour mondedie.fr disponible ici:
 
-[Installer ruTorrent sur Debian {nginx & php-fpm}](http://mondedie.fr/viewtopic.php?id=5302)
 
-[Aide, support & plus si affinités à la même adresse !](http://mondedie.fr/)
+Voici un "fork" (une copie) de notre ami [color=green]Ex_Rat[/color] du célèbre script Bonobox que par plaisir j’ai ajouté des fonctionnalités,
 
-**Auteur :** Ex_Rat
 
-Merci Aliochka & Meister pour les conf de munin et VsFTPd
+[list=*]
+[*][color=#D2691E]TARDIStart[/color][/*]
+[/list]
+[list=*]
+[*][color=#D2691E]SickRage multi-users[/color][/*]
+[/list]
+[list=*]
+[*][color=#D2691E]CouchPotato  multi-users[/color][/*]
+[/list]
+[list=*]
+[*][color=#D2691E]Plex  ou emby + icône dans ruTorrent[/color] "dans options"[/*]
+[/list]
+[list=*]
+[*]*******[/*]
+[/list]
+[list=*]
+[*]*******[/*]
+[/list]
+[list=*]
+[*][color=#D2691E]Filebot[/color] "dans options"[/*]
+[/list]
+[list=*]
+[*][color=#D2691E]Openvpn[/color] "dans options"[/*]
+[/list]
+[list=*]
+[*][color=#D2691E]eZ Server Monitor[/color][/*]
+[/list]
+[list=*]
+[*][color=#D2691E]Thème QuickBox-Dark par défaut [/color][/*]
+[/list]
+[list=*]
+[*][color=#D2691E]Un sous-domain[/color] [color=#9932CC] *****.ratxabox.ovh [/color][color=#D2691E](sur demande)[/color][/*]
+[/list]
 
-à Albaret pour le coup de main sur la gestion d'users, LetsGo67 pour ses rectifs et
+[b]1) Préambule :[/b]
 
-Jedediah pour avoir joué avec le html/css du thème
+Bien lire le tuto de Ex_Rat : [url]https://mondedie.fr/d/5399[/url] (juste le lire, ne pas exécuter script de ex_rat)
 
-Aux traducteurs: Sophie, Spectre, Hardware, Zarev, SirGato, MiguelSam
+Dépot RatXaBox : [url]https://github.com/xavier84/RatXaBox[/url]
 
-## Installation:
-Multilingue automatique
-```
-apt-get update && apt-get upgrade -y
+[b]2) Installation :[/b]
+
+Mise a jours + installation de Git
+[code]apt-get update && apt-get upgrade -y
 apt-get install git-core -y
-
-cd /tmp
+[/code]
+on clone est lance le script
+[code]cd /tmp
 git clone https://github.com/xavier84/RatXaBox ratxabox
 cd ratxabox
-chmod a+x bonobox.sh && ./bonobox.sh
-```
-![caps1](https://raw.github.com/exrat/rutorrent-bonobox/master/files/caps_script01.png)
+chmod a+x bonobox.sh && ./bonobox.sh[/code]
 
-**Vous pouvez aussi forcer la langue de votre choix:**
-```
-# Français
-chmod a+x bonobox.sh && ./bonobox.sh --fr
+il vous suffira de suivre les indications affichées.
 
-# English
-chmod a+x bonobox.sh && ./bonobox.sh --en
+[b]3) Les Options :[/b]
 
-# Pусский  ( "д/H" или "y/n" )
-chmod a+x bonobox.sh && ./bonobox.sh --ru
+Pour installé les options:
+ après le redémarrage du serveur relancé le script et prendre le choix numéro : 10
 
-# German
-chmod a+x bonobox.sh && ./bonobox.sh --de
+[b]4) Les liens :[/b]
 
-# Español
-chmod a+x bonobox.sh && ./bonobox.sh --es
+[list=*]
+[*]TARDIStart :
+IPserveur/tardistart[/*]
+[/list]
+[list=*]
+[*]SickRage :
+IPserveur/sickrage[/*]
+[/list]
+[list=*]
+[*]CouchPotato :
+IPserveur/couchpotato[/*]
+[/list]
+[list=*]
+[*]Plex :
+IPserveur:32400/web[/*]
+[/list]
+[list=*]
+[*]Emby :
+IPserveur:8096[/*]
+[/list]
+[list=*]
+[*]Esm :
+IPserveur/esm[/*]
+[/list]
 
-# Português
-chmod a+x bonobox.sh && ./bonobox.sh --pt
-```
+[b]5) Partie technique :[/b]
 
-Pour gérer vos utilisateurs ultérieurement, il vous suffit de relancer le script
+- TARDIStart
+Administraion des liens :
+[list=*]
+[*]TARDIStart   IPserveur/tardistart/admin[/*]
+[/list]
 
-![caps2](https://raw.github.com/exrat/rutorrent-bonobox/master/files/caps_script02.png)
 
-### Disclaimer
-Ce script est proposé à des fins d'expérimentation uniquement, le téléchargement d’oeuvre copyrightées est illégal.
 
-Merci de vous conformer à la législation en vigueur en fonction de vos pays respectifs en faisant vos tests sur des fichiers libres de droits.
+PS: si vous avez des bugs ou autres problèmes n'hésitez pas à me contacter !
 
-### License
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
+
+La discussion se passe la https://mondedie.fr/d/8717-Discussion-RatXaBox-ruTorrent-avec-rTorrent-Version-Workflow
+
+
+
+
+
+
+cordialement
+Xavier
