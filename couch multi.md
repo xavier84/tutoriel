@@ -22,13 +22,13 @@ N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato
 
 ## 1. Installation des prérequis
 
-*Installation de python-cheetah*
+*Installation de python-cheetah:*
 
 ```shell
 apt-get install git-core python python-cheetah
 ```
 
-*Installation de CouchPotato*
+*Installation de CouchPotato:*
 ```shell
 git clone https://github.com/CouchPotato/CouchPotatoServer.git /opt/couchpotato
 cd /opt/couchpotato
@@ -36,12 +36,12 @@ cd /opt/couchpotato
 
 ## 2. Création du service
 
-*On commence par créer le fichier init.d*
+*On commence par créer le fichier init.d:*
 ```shell
 nano /etc/init.d/couchpotato-xavier
 ```
 
-*On copie ce qui suit dedans*
+*On copie ce qui suit dedans:*
 ```shell
 #!/bin/sh
 #
