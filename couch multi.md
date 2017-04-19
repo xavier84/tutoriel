@@ -6,8 +6,8 @@ N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato
 À titre indicatif, nous choisissons ces deux utilisateurs: xavier & zarev. 
 
 > Prenez soin de les remplacer par vos propres utilisateurs tout au long du tutoriel!
-
-
+*
+*
 Détail du tutoriel:
 
 1: installation des prérequis
