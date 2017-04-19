@@ -224,12 +224,11 @@ location ^~ /couchpotato {
 service nginx restart
 ```
 
-> Rendez-vous maintenant sur htttp://ip/couchpotato ou encore https://ip/couchpotato
+> Rendez-vous maintenant sur http://IP/couchpotato ou encore https://IP/couchpotato
 
 ## 7. Ajouter un second utilisateur
 
 Il faut reprendre à partir du point 2 du détail du tutoriel
-/!\PAUSE => réfléchir sur l'enchaînement 
 
 ## 2. Création du service
 
@@ -408,6 +407,6 @@ location ^~ /couchpotato {
 service nginx restart
 ```
 
-> Rendez-vous maintenant sur htttp://ip/couchpotato ou encore https://ip/couchpotato
+> Rendez-vous maintenant sur http://IP/couchpotato ou encore https://IP/couchpotato
 
 > Comme vous l'aurez compris, vous répéter la procédure à partir du point 2 au temps de fois que nécessaire pour ajouter des utilisateurs. Veilliez cependant à ne jamais oublier de changer le port.
