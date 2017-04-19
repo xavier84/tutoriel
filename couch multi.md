@@ -28,6 +28,8 @@ N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato
 
 * Modification du fichier rutorrent.cof
 
+6. Démarrage du service Couchpotato
+
 
 ## 1. Installation des prérequis
 
@@ -192,7 +194,7 @@ create_subdir = 0
 use_for = both
 ```
 
-## 5. Configuration de nginx
+## 5. Configuration de nginx:
 
 *On édite rutorrent.conf*
 
@@ -212,7 +214,7 @@ location ^~ /couchpotato {
                 }
         }
 ```
-## On démmare le tout
+## 6. Démarrage de Couchpotato:
 ```shell
 /etc/init.d/couchpotato-xavier start
 service nginx restart
