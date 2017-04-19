@@ -3,7 +3,7 @@
 
 Salut à tous,
 
-Voici un "fork" (une copie) du célèbre script Bonobox de notre ami @Ex_Rat, par plaisir j’y ai ajouté de nouvelles fonctionnalités:
+Voici un "fork" (une copie) du célèbre script [Bonobox](https://mondedie.fr/d/5399-Script-Installation-automatique-ruTorrent-nginx "Titre") de notre ami @Ex_Rat, par plaisir j’y ai ajouté de nouvelles fonctionnalités:
 
 * TARDIStart  
 * SickRage multi-users
@@ -20,7 +20,7 @@ Voici un "fork" (une copie) du célèbre script Bonobox de notre ami @Ex_Rat, pa
 * [Bien lire le tuto de Ex_Rat](https://mondedie.fr/d/5399 "Titre") (juste le lire, ne pas exécuter script de ex_rat)
 * [Dépot RatXaBox](https://github.com/xavier84/RatXaBox "Titre")
 
-
+https://mondedie.fr/d/5399-Script-Installation-automatique-ruTorrent-nginx
 
 [b]2) Installation :[/b]
 
@@ -83,6 +83,11 @@ PS: si vous avez des bugs ou autres problèmes n'hésitez pas à me contacter !
 
 
 La discussion se passe la https://mondedie.fr/d/8717-Discussion-RatXaBox-ruTorrent-avec-rTorrent-Version-Workflow
+
+
+
+
+
 
 cordialement
 Xavier
