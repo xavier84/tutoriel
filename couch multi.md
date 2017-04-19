@@ -165,7 +165,7 @@ exit 0
 ```
 > On vérifie que les 4 xavier sont bien modifiés suivant vos besoins  
 
-## Démarrage du service + attribution des droits
+##  4. Démarrage du service + attribution des droits:
 ```shell
 update-rc.d couchpotato-xavier defaults
 /etc/init.d/couchpotato-xavier start
@@ -173,7 +173,10 @@ update-rc.d couchpotato-xavier defaults
 chmod -Rf 755  /opt/couchpotato/data/
 ```
 
-## Configuration de l'utilisateur Couchpotato
+## 5. Configuration de l'utilisateur Couchpotato:
+
+*Création du fichier de configurration de l'utilisateur:*
+
 ```shell
 nano /opt/couchpotato/data/xavier/settings.conf
 ```
