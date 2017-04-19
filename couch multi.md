@@ -182,7 +182,7 @@ chmod -Rf 755  /opt/couchpotato/data/
 ```shell
 nano /opt/couchpotato/data/xavier/settings.conf
 ```
-*Rechercher & compléter/modifier:
+*Rechercher & compléter/modifier:*
 ```shell
 username = xavier
 port = 5051
