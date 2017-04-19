@@ -5,13 +5,8 @@
 N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato en multi-utilisateur, voici une procédure expliquant sa mise en place.
 À titre indicatif, nous choisissons ces deux utilisateurs: xavier & zarev. 
 
-> Prenez soin de les remplacer par vos propres utilisateurs tout au long du tutoriel!
-                                                                                                                                                                                                                                                      
-
-                                                                                                                                                                                                                                                       
-
-
-
+> Prenez soin de les remplacer par vos propres utilisateurs tout au long du tutoriel!  
+                                                                                                                                                                                                                  
 Détail du tutoriel:
 
 1: installation des prérequis
@@ -22,16 +17,6 @@ Détail du tutoriel:
 
 3: configuration de l'utilisateur
 ---------------------------------
-
-<ul>
-
-<li>1: installation des prérequis</li>
-
-<li>création du service</li>
-
-<li>configuration de l'utilisateur</li>
-
-</ul>
 
 ## Installation des prérequis
 
