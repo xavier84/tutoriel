@@ -51,6 +51,7 @@ chmod a+x bonobox.sh && ./bonobox.sh
 
 ## 3.  Les options
 Pour installer les options: après le redémarrage du serveur, relancer le script et choisir le numéro **10**
+
 ![Google logo](https://cloud.llamasweet.tech/index.php/apps/files_sharing/ajax/publicpreview.php?x=1920&y=543&a=true&file=options.jpg&t=QoqdE9ywmV4DzX8&scalingup=0 "google logo")
 
 *Voici les options disponibles:*
