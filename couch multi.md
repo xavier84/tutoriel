@@ -361,7 +361,7 @@ update-rc.d couchpotato-zarev defaults
 ```shell
 nano /opt/couchpotato/data/zarev/settings.conf
 ```
-**Rechercher & compléter/modifier:
+*Rechercher & compléter/modifier:*
 ```shell
 username = zarev
 port = 5052
