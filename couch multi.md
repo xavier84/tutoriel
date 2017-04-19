@@ -16,8 +16,17 @@ N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato
 
 2. **Création du service**
 
+* création du fichier de démarrage 
 
-3. **Configuration de l'utilisateur**
+3. **Démarrage du service et attribution des droits**
+
+
+
+4. **Configuration de l'utilisateur**
+
+* Création du fichier de configurration de l'utilisateur
+
+5. Configuration de nginx
 
 
 ## 1. Installation des prérequis
