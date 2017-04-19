@@ -43,7 +43,7 @@ git clone https://github.com/xavier84/RatXaBox ratxabox
 cd ratxabox
 chmod a+x bonobox.sh && ./bonobox.sh
 ```
-Il vous suffira de suivre les indications affichées
+*Il suffira ensuite de suivre les indications affichées*
 
 ## 3.  Les options
 
