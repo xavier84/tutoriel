@@ -22,6 +22,7 @@ Voici un "fork" (une copie) du célèbre script [Bonobox](https://mondedie.fr/d/
 * git-core
 * cloner et lancer le script
 3. ## Les options
+4. ## Liens utiles
 ## 1. Préambule
 
 * [Bien lire le tuto de Ex_Rat](https://mondedie.fr/d/5399 "Titre") (juste le lire, ne pas exécuter script de ex_rat)
@@ -48,44 +49,38 @@ Il vous suffira de suivre les indications affichées
 
 Pour installer les options: après le redémarrage du serveur, relancer le script et choisir le numéro **10**
 
-Les liens
+## 4. Liens utiles
 
-[list=*]
-[*]TARDIStart :
-IPserveur/tardistart[/*]
-[/list]
-[list=*]
-[*]SickRage :
-IPserveur/sickrage[/*]
-[/list]
-[list=*]
-[*]CouchPotato :
-IPserveur/couchpotato[/*]
-[/list]
-[list=*]
-[*]Plex :
-IPserveur:32400/web[/*]
-[/list]
-[list=*]
-[*]Emby :
-IPserveur:8096[/*]
-[/list]
-[list=*]
-[*]Esm :
-IPserveur/esm[/*]
-[/list]
+*Voici les liens pour vous connecter à l'interface de vos services*
 
-[b]5) Partie technique :[/b]
+* TARDIStart :
+IPserveur/tardistart
+
+* SickRage :
+IPserveur/sickrage
+
+* CouchPotato :
+IPserveur/couchpotato
+
+* Plex :
+IPserveur:32400/web
+
+* Emby :
+IPserveur:8096
+
+* Esm :
+IPserveur/esm
+
+
+*Partie technique:*
 
 - TARDIStart
-Administraion des liens :
-[list=*]
-[*]TARDIStart   IPserveur/tardistart/admin[/*]
-[/list]
+Administraion des liens TARDIStart :
+IPserveur/tardistart/admin
 
-PS: si vous rencontrez un bug ou tout autre problème, n'hésitez pas à me contacter !
+> Si vous rencontrez un bug ou tout autre problème, n'hésitez pas à me contacter !
 
 [La discussion se passe ici](https://mondedie.fr/d/8717-Discussion-RatXaBox-ruTorrent-avec-rTorrent-Version-Workflow "Titre")
 
 Cordialement:
-Xavier
+@Xavier
