@@ -377,7 +377,7 @@ directory = /home/zarev/watch/
 create_subdir = 0
 use_for = both
 ```
-## 5. Configuration de nginx:
+## 6. Configuration de nginx:
 *On édite rutorrent.conf:*
 ```shell
 nano /etc/nginx/sites-enabled/rutorrent.conf
