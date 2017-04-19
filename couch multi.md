@@ -9,15 +9,15 @@ N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato
                                                                                                                                                                                                                   
 ## Détail du tutoriel:
 
-**1. Installation des prérequis**
+1. **Installation des prérequis**
 
 * python-cheetah
 * Couchpotato
 
-**2. Création du service**
+2. **Création du service**
 
 
-**3. Configuration de l'utilisateur**
+3. **Configuration de l'utilisateur**
 
 
 ## 1. Installation des prérequis
