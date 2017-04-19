@@ -28,9 +28,9 @@ N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato
 
 * Modification du fichier rutorrent.cof
 
-6. Démarrage du service Couchpotato
+6. ## Démarrage du service Couchpotato
 
-7. Ajout d'un second utilisateur
+7. ## Ajout d'un second utilisateur
 
 
 ## 1. Installation des prérequis
