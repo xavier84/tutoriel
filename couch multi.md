@@ -2,7 +2,7 @@
 
 ![Google logo](https://couchpota.to/media/images/full.png "google logo")
 
-N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato en multi-utilisateur, voici une procédure expliquant sa mise en place.
+N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato en multi-utilisateur, en voici un expliquant sa mise en place.
 À titre indicatif, nous choisissons ces deux utilisateurs: xavier & zarev. 
 
 > Prenez soin de les remplacer par vos propres utilisateurs tout au long du tutoriel!  
@@ -162,11 +162,11 @@ update-rc.d couchpotato-xavier defaults
 chmod -Rf 755  /opt/couchpotato/data/
 ```
 
-## Configuration de user couch
+## Configuration de l'utilisateur Couchpotato
 ```shell
 nano /opt/couchpotato/data/xavier/settings.conf
 ```
-## recherche/remplacé
+## Rechercher & remplacer
 ```shell
 username = xavier
 port = 5051
