@@ -14,7 +14,17 @@ Détail du tutoriel:
 ----------------------
 
 3: configuration de l'utilisateur
-=================================
+---------------------------------
+
+<ul>
+
+<li>installation des prérequis</li>
+
+<li>création du service</li>
+
+<li>configuration de l'utilisateur</li>
+
+</ul>
 
 ## Installation des prérequis
 
