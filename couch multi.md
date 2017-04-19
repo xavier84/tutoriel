@@ -202,7 +202,6 @@ use_for = both
 ## 5. Configuration de nginx:
 
 *On édite rutorrent.conf:*
-
 ```shell
 nano /etc/nginx/sites-enabled/rutorrent.conf
 ```
@@ -380,6 +379,10 @@ use_for = both
 ```
 ## 5. Configuration de nginx:
 *On édite rutorrent.conf:*
+```shell
+nano /etc/nginx/sites-enabled/rutorrent.conf
+```
+
 ```shell
 location ^~ /couchpotato {
                 proxy_set_header X-Real-IP $remote_addr;
