@@ -226,14 +226,17 @@ service nginx restart
 ```
 ## 7. Ajouter un second utilisateur
 
+Il faut reprendre à partir du point 2 du détail du tutoriel
 /!\PAUSE => réfléchir sur l'enchaînement 
 
-## On crée le service
+## 2. Création du service
+
+*On commence par créer le fichier init.d:*
 ```shell
 nano /etc/init.d/couchpotato-zarev
 ```
 
-## On copie dedans
+*On copie ce qui suit dedans:*
 ```shell
 #!/bin/sh
 #
@@ -346,14 +349,16 @@ exit 0
 ```
 > On vérifie que les 4 zarev sont bien modifiés suivant vos besoins  
 
-## Démarrage du service + attribution des droits
+##  4. Démarrage du service + attribution des droits:
 ```shell
 update-rc.d couchpotato-zarev defaults
 /etc/init.d/couchpotato-zarev start
 /etc/init.d/couchpotato-zarev stop
 ```
 
-## Configuration de l'utilisateur Couchpotato
+## 5. Configuration de l'utilisateur Couchpotato:
+
+*Création du fichier de configurration de l'utilisateur:*
 ```shell
 nano /opt/couchpotato/data/zarev/settings.conf
 ```
@@ -373,7 +378,8 @@ directory = /home/zarev/watch/
 create_subdir = 0
 use_for = both
 ```
-## Configuration de nginx
+## 5. Configuration de nginx:
+*On édite rutorrent.conf:*
 ```shell
 location ^~ /couchpotato {
                 proxy_set_header X-Real-IP $remote_addr;
@@ -390,7 +396,7 @@ location ^~ /couchpotato {
                 }
         }
 ```
-## On démmare le tout
+## 6. Démarrage de Couchpotato:
 ```shell
 /etc/init.d/couchpotato-zarev start
 service nginx restart
