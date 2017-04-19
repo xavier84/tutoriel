@@ -30,6 +30,8 @@ N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato
 
 6. Démarrage du service Couchpotato
 
+7. Ajout d'un second utilisateur
+
 
 ## 1. Installation des prérequis
 
@@ -180,7 +182,7 @@ chmod -Rf 755  /opt/couchpotato/data/
 ```shell
 nano /opt/couchpotato/data/xavier/settings.conf
 ```
-## Rechercher & remplacer
+*Rechercher & remplacer:
 ```shell
 username = xavier
 port = 5051
@@ -199,7 +201,7 @@ use_for = both
 
 ## 5. Configuration de nginx:
 
-*On édite rutorrent.conf*
+*On édite rutorrent.conf:*
 
 ```shell
 nano /etc/nginx/sites-enabled/rutorrent.conf
@@ -222,8 +224,9 @@ location ^~ /couchpotato {
 /etc/init.d/couchpotato-xavier start
 service nginx restart
 ```
-# Partie 2 ajout d'un utilisateur.
+## 7. Ajouter un second utilisateur
 
+/!\PAUSE => réfléchir sur l'enchaînement 
 
 ## On crée le service
 ```shell
