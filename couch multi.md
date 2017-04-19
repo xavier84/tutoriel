@@ -320,7 +320,7 @@ esac
 exit 0
 
 ```
-tu as 4 zarev a modifié
+> On vérifie que les 4 zarev sont bien modifiés suivant vos besoins  
 
 ## Démarrage du service + attribution des droits
 ```shell
@@ -329,7 +329,7 @@ update-rc.d couchpotato-zarev defaults
 /etc/init.d/couchpotato-zarev stop
 ```
 
-## config de user couch
+## Configuration de l'utilisateur Couchpotato
 ```shell
 nano /opt/couchpotato/data/zarev/settings.conf
 ```
