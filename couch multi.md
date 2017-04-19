@@ -410,3 +410,5 @@ service nginx restart
 > Rendez-vous maintenant sur http://IP/couchpotato ou encore https://IP/couchpotato
 
 **Comme vous l'aurez compris, vous répéter la procédure à partir du point 2 au temps de fois que nécessaire pour ajouter des utilisateurs. Veilliez cependant à ne jamais oublier de changer le port.**
+
+*Remerciement à @zarev pour la mise en forme du tuto*
