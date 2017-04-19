@@ -36,7 +36,7 @@ cd /opt/couchpotato
 
 ## 2. Création du service
 
-*On commence par créer le fichier %%%%%%*
+*On commence par créer le fichier init.d*
 ```shell
 nano /etc/init.d/couchpotato-xavier
 ```
