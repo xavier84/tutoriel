@@ -7,7 +7,7 @@ N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato
 
 > Prenez soin de les remplacer par vos propres utilisateurs tout au long du tutoriel!  
                                                                                                                                                                                                                   
-# Détail du tutoriel:
+**Détail du tutoriel:**
 
 1. ## Installation des prérequis 
 
@@ -19,7 +19,6 @@ N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato
 * création du fichier de démarrage 
 
 3. ## Démarrage du service et attribution des droits
-
 
 4. ## Configuration de l'utilisateur
 
@@ -193,7 +192,14 @@ create_subdir = 0
 use_for = both
 ```
 
-## Configuration de nginx
+## 5. Configuration de nginx
+
+*On édite rutorrent.conf*
+
+```shell
+nano /etc/nginx/sites-enabled/rutorrent.conf
+```
+
 ```shell
 location ^~ /couchpotato {
                 proxy_set_header X-Real-IP $remote_addr;
