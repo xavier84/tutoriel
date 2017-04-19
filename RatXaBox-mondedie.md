@@ -1,6 +1,8 @@
 ## Auto installation de ruTorrent avec rTorrent
 *Version "Seedbox-Manager Workflow"*
 
+![Google logo](https://cloud.llamasweet.tech/index.php/apps/files_sharing/ajax/publicpreview.php?x=1920&y=543&a=true&file=ratxabox.jpg&t=0SRd82hfO9PMWe7&scalingup=0 "google logo")
+
 Salut à tous,
 
 Voici un "fork" (une copie) du célèbre script [Bonobox](https://mondedie.fr/d/5399-Script-Installation-automatique-ruTorrent-nginx "Titre") de notre ami @Ex_Rat, par plaisir j’y ai ajouté de nouvelles fonctionnalités:
@@ -13,7 +15,7 @@ Voici un "fork" (une copie) du célèbre script [Bonobox](https://mondedie.fr/d/
 * Openvpn
 * eZ Server Monitor
 * Thème QuickBox-Dark par défaut
-* Un sous-domaine *****.ratxabox.ovh (sur demande)
+* Un sous-domain *****.ratxabox.ovh (sur demande)
 
 **Détail du tutoriel:**
 
@@ -43,7 +45,9 @@ git clone https://github.com/xavier84/RatXaBox ratxabox
 cd ratxabox
 chmod a+x bonobox.sh && ./bonobox.sh
 ```
-*Il suffira ensuite de suivre les indications affichées*
+*Il vous suffira de suivre les indications affichées:*
+
+![Google logo](https://cloud.llamasweet.tech/index.php/apps/files_sharing/ajax/publicpreview.php?x=1920&y=543&a=true&file=ratxaboxlin.jpg&t=EWJJRRVDeKBnP7I&scalingup=0 "google logo")
 
 ## 3.  Les options
 
