@@ -41,7 +41,7 @@ cd /opt/couchpotato
 nano /etc/init.d/couchpotato-xavier
 ```
 
-*On copie dedans*
+*On copie ce qui suit dedans*
 ```shell
 #!/bin/sh
 #
