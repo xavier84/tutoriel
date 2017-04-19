@@ -1,5 +1,7 @@
 # CouchPotato multi-Utilisateur
 
+![Google logo](https://couchpota.to/media/images/full.png "google logo")
+
 N'ayant pas trouvé de tuto sur internet pour installer & configurer Couchpotato en multi-utilisateur, voici une procédure expliquant sa mise en place.
 À titre indicatif, nous choisissons ces deux utilisateurs: xavier & zarev. 
 
@@ -18,7 +20,7 @@ Détail du tutoriel:
 
 <ul>
 
-<li>installation des prérequis</li>
+<li>1: installation des prérequis</li>
 
 <li>création du service</li>
 
