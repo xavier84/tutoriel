@@ -1,4 +1,4 @@
-# CouchPotato multi-Utilisateur
+# CouchPotato multi-utilisateur
 
 ![Google logo](https://couchpota.to/media/images/full.png "google logo")
 
