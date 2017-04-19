@@ -401,3 +401,4 @@ location ^~ /couchpotato {
 /etc/init.d/couchpotato-zarev start
 service nginx restart
 ```
+/!\ à terminer Note: Ne pas oublier qu'à chaque ajout d'un utilisateur il faut changer le port
