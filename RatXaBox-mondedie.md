@@ -15,7 +15,7 @@ Voici un "fork" (une copie) du célèbre script [Bonobox](https://mondedie.fr/d/
 * Openvpn
 * eZ Server Monitor
 * Thème QuickBox-Dark par défaut
-* Un sous-domain *****.ratxabox.ovh (sur demande)
+* Un sous-domaine *****.ratxabox.ovh (sur demande)
 
 **Détail du tutoriel:**
 
