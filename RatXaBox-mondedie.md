@@ -1,4 +1,4 @@
-## Auto installation de ruTorrent avec rTorrent
+## Installation automatique de ruTorrent avec rTorrent
 *Version "Seedbox-Manager Workflow"*
 
 ![Google logo](https://cloud.llamasweet.tech/index.php/apps/files_sharing/ajax/publicpreview.php?x=1920&y=543&a=true&file=ratxabox.jpg&t=0SRd82hfO9PMWe7&scalingup=0 "google logo")
