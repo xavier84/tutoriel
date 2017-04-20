@@ -10,9 +10,9 @@ Voici un "fork" (une copie) du célèbre script [Bonobox](https://mondedie.fr/d/
 * TARDIStart  
 * SickRage multi-users
 * CouchPotato  multi-users
-* Plex  ou emby + icône dans ruTorrent
-* Filebot
-* Openvpn
+* Plex  ou emby + icône dans ruTorrent (dans la partie Options)
+* Filebot (dans la partie Options)
+* Openvpn (dans la partie Options)
 * eZ Server Monitor
 * Thème QuickBox-Dark par défaut
 * Un sous-domaine *****.ratxabox.ovh (sur demande)
